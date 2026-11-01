@@ -28,6 +28,15 @@ These figures were extracted from *Indoor Position and Attitude Control with Vis
 
 The [timing plot](figures/thesis/figure-25-tracking-timing.png) (Figure 25), [repeatability versus depth](figures/thesis/figure-30-repeatability-vs-depth.png) (Figure 30), and [workspace top view](figures/thesis/figure-35-workspace-top.png) (Figure 35) provide further detail. Additional experiment plots remain in [`figures/`](figures/). The stereo versus Kalman filter difference is an estimator comparison, **not** a ground truth localization error.
 
+## Demonstration videos
+
+| Recording | What it shows |
+| --- | --- |
+| [Single LED stereo tracking](videos/single-led-stereo-tracking.mp4) | One LED detected in both camera views with live position readouts. |
+| [Three LED triangle tracking](videos/three-led-triangle-tracking.mp4) | The front and rear marker LEDs identified in both views, with live position and heading readouts. |
+
+These are short screen recordings of the experimental setup, not accuracy benchmarks. The ToF readout is unavailable (`-1`) in the recorded segments.
+
 ## Repository map
 
 ```text
@@ -35,6 +44,7 @@ python/attitude/       Main real time tracker and workspace analysis
 python/calibration/    ChArUco calibration scripts
 matlab/analysis/       Filter and trajectory validation scripts with sample logs
 figures/               Selected output plots
+videos/                Two short tracking demonstrations
 requirements.txt       Python dependencies
 ```
 
