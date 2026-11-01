@@ -14,13 +14,15 @@ This repository is a **curated snapshot** of the larger TH Rosenheim project. It
 | Validation | MATLAB analysis of filter dropouts and a rectangular trajectory, each with a representative CSV log |
 | Workspace | Camera field of view and visible voxel analysis |
 
-## Results preview
+## Results from the thesis
 
-| Kalman filter comparison | Trajectory analysis | Workspace estimate |
-| --- | --- | --- |
-| ![X position and Kalman filter difference](figures/KF_X_position_and_difference.png) | ![Projected trajectory compared with measured rectangle](figures/rectangle_trajectory.png) | ![Stereo workspace isometric view](figures/stereo_workspace.png) |
+These figures were extracted from *Indoor Position and Attitude Control with Vision Localization*. The figure numbers follow that document. They show one experimental configuration and are presented with the limitations described below.
 
-Additional Y and Z filter plots are in [`figures/`](figures/). The plotted estimator differences show the effect of filtering; they are **not** ground truth localization errors. Recorded trajectories and workspace estimates reflect one experimental setup.
+| Marker geometry | Measured trajectory | Kalman filter | Stereo workspace |
+| --- | --- | --- | --- |
+| ![Figure 8: marker LEDs and heading vector](figures/thesis/figure-08-marker-heading.png) | ![Figure 22: measured two-dimensional trajectory compared with the known rectangle](figures/thesis/figure-22-trajectory-comparison.png) | ![Figure 31: X position and stereo versus Kalman filter difference](figures/thesis/figure-31-kalman-x.png) | ![Figure 34: theoretical stereo visible workspace side view](figures/thesis/figure-34-workspace-side.png) |
+
+The [timing plot](figures/thesis/figure-25-tracking-timing.png) (Figure 25), [repeatability versus depth](figures/thesis/figure-30-repeatability-vs-depth.png) (Figure 30), and [workspace top view](figures/thesis/figure-35-workspace-top.png) (Figure 35) provide further detail. Additional experiment plots remain in [`figures/`](figures/). The stereo versus Kalman filter difference is an estimator comparison, **not** a ground truth localization error.
 
 ## Repository map
 
