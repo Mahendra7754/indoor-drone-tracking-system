@@ -32,10 +32,10 @@ The [timing plot](figures/thesis/figure-25-tracking-timing.png) (Figure 25), [re
 
 | Recording | What it shows |
 | --- | --- |
-| [Single LED stereo tracking](videos/single-led-stereo-tracking.mp4) | One LED detected in both camera views with live position readouts. |
-| [Three LED triangle tracking](videos/three-led-triangle-tracking.mp4) | The front and rear marker LEDs identified in both views, with live position and heading readouts. |
+| [Download single LED stereo tracking (MP4, 4.1 MB)](https://raw.githubusercontent.com/Mahendra7754/indoor-drone-tracking-system/main/videos/single-led-stereo-tracking.mp4) | One LED detected in both camera views with live position readouts. |
+| [Download three LED triangle tracking (MP4, 6.1 MB)](https://raw.githubusercontent.com/Mahendra7754/indoor-drone-tracking-system/main/videos/three-led-triangle-tracking.mp4) | The front and rear marker LEDs identified in both views, with live position and heading readouts. |
 
-These are short screen recordings of the experimental setup, not accuracy benchmarks. The ToF readout is unavailable (`-1`) in the recorded segments.
+These are short screen recordings of the experimental setup, not accuracy benchmarks. GitHub serves these MP4 files as downloads; open them in a video player after downloading. The ToF readout is unavailable (`-1`) in the recorded segments.
 
 ## Repository map
 
