@@ -1,0 +1,14 @@
+.DS_Store
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.asv
+*.m~
+*.autosave
+*.slx.r*
+*.slxc
+*.npz
+*.mat
+logs/

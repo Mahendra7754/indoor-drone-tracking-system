@@ -1,0 +1,6 @@
+# Dependencies identified from the existing Python scripts.
+# Versions are intentionally unpinned: no validated environment was supplied.
+numpy
+opencv-contrib-python
+openpyxl
+cflib
