@@ -14,13 +14,13 @@ This repository is a **curated snapshot** of the larger TH Rosenheim project. It
 | Validation | MATLAB analysis of filter dropouts and a rectangular trajectory, each with a representative CSV log |
 | Workspace | Camera field of view and visible voxel analysis |
 
-## Results from the thesis
+## Project visuals
 
-These figures were extracted from *Indoor Position and Attitude Control with Vision Localization*. The figure numbers follow that document. They show one experimental configuration and are presented with the limitations described below.
+The first image shows the actual drone with its three LED marker. The numbered plots were extracted from *Indoor Position and Attitude Control with Vision Localization* and show one experimental configuration, with the limitations described below.
 
-| Figure 8: Marker geometry | Figure 22: Measured trajectory |
+| Actual drone with LED triangle | Figure 22: Measured trajectory |
 | --- | --- |
-| ![Marker LEDs and heading vector](figures/thesis/figure-08-marker-heading.png) | ![Measured two-dimensional trajectory compared with the known rectangle](figures/thesis/figure-22-trajectory-comparison.png) |
+| ![Crazyflie drone with its three LED marker mounted above the frame](figures/actual-drone-led-triangle.jpg) | ![Measured two-dimensional trajectory compared with the known rectangle](figures/thesis/figure-22-trajectory-comparison.png) |
 
 | Figure 31: Kalman filter comparison | Figure 34: Stereo workspace |
 | --- | --- |
@@ -43,7 +43,7 @@ These are short screen recordings of the experimental setup, not accuracy benchm
 python/attitude/       Main real time tracker and workspace analysis
 python/calibration/    ChArUco calibration scripts
 matlab/analysis/       Filter and trajectory validation scripts with sample logs
-figures/               Selected output plots
+figures/               Hardware photo and selected output plots
 videos/                Two short tracking demonstrations
 requirements.txt       Python dependencies
 ```
