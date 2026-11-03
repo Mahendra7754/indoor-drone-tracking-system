@@ -1,6 +1,6 @@
 # Indoor Drone Tracking System
 
-A selected portfolio of research code and results for indoor localization of a Crazyflie quadcopter with two cameras and a three infrared LED marker. The work covers stereo calibration, LED matching and triangulation, position and attitude estimation, constant velocity Kalman filtering, and experimental analysis.
+This repository contains the code and results for indoor localization of a Crazyflie quadcopter with two cameras and a three infrared LED marker. The work covers stereo calibration, LED matching and triangulation, position and attitude estimation, constant velocity Kalman filtering, and experimental analysis.
 
 This repository is a **curated snapshot** of the larger TH Rosenheim project. It keeps the main implementation, representative analysis code and data, and a few plots. It is not a complete hardware reproduction package.
 
